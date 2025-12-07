@@ -1,0 +1,111 @@
+# ========== 编译产物 ==========
+# 目标文件
+*.o
+*.obj
+
+# 可执行文件
+*.exe
+*.out
+*.bin
+MiniFileExplorer
+MiniFileExplorer.exe
+
+# 静态库和动态库
+*.a
+*.lib
+*.so
+*.dll
+*.dylib
+
+# ========== IDE 和编辑器配置 ==========
+# Visual Studio Code
+.vscode/
+*.code-workspace
+
+# CLion / IntelliJ IDEA
+.idea/
+*.iml
+cmake-build-*/
+
+# Visual Studio
+.vs/
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.sln
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Xcode
+*.xcodeproj
+*.xcworkspace
+DerivedData/
+
+# ========== 构建系统 ==========
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.cmake
+!CMakeLists.txt
+
+# Makefile 生成的文件（如果使用 autotools）
+.deps/
+.dirstamp
+
+# ========== 临时文件和日志 ==========
+# 临时文件
+*.tmp
+*.temp
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# 日志文件
+*.log
+
+# ========== 测试和调试 ==========
+# 测试输出
+test_workspace/
+test_output/
+*.test
+
+# 调试文件
+*.dSYM/
+*.pdb
+
+# 内存检查工具
+valgrind-out.txt
+*.memcheck
+
+# ========== 备份文件 ==========
+*.bak
+*.backup
+*~
+
+# ========== 系统文件 ==========
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Linux
+*~
+.directory
+
+# ========== 其他 ==========
+# 用户创建的测试目录（可选，根据需要取消注释）
+# test_workspace/
+# test_data/
+

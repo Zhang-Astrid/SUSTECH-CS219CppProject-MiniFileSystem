@@ -48,7 +48,6 @@ DerivedData/
 CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
-Makefile
 *.cmake
 !CMakeLists.txt
 
@@ -109,3 +108,4 @@ $RECYCLE.BIN/
 # test_workspace/
 # test_data/
 
+/pdf
